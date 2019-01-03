@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.App ul li {
+    background: #333;
+    color: #fff;
+    width: 100%;
+    padding: 16px;
+    margin: 8px 0;
+}
+
+.App .pages-count-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.App .pages-count-container li {
+    display: inline-block;
+    padding: 8px;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: color 150ms linear;
+}
+
+.App .pages-count-container li:hover {
+    color: rgb(51, 159, 212);
+}
+
+.highlighted {
+    color: rgb(51, 159, 212);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
